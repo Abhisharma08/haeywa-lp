@@ -7,7 +7,7 @@ const Logo = ({ className }: { className?: string }) => {
       <Image
         src="https://haeywa.ai/img/haeywa_logo.webp"
         alt="haeywa Logo"
-        width={60}
+        width={100}
         height={20}
         className="object-contain"
         priority

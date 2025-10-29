@@ -1,31 +1,33 @@
-import { BarChart3, Gauge, Lock, ReceiptText, Users } from "lucide-react";
+"use client";
+
+import { HandCoins, Landmark, PiggyBank, SearchCheck, ShieldCheck } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const benefits = [
   {
-    icon: <ReceiptText className="h-8 w-8 text-primary" />,
-    title: "Streamline All Business Payments",
-    description: "One platform to manage all your payables and receivables effortlessly.",
+    icon: <PiggyBank className="h-8 w-8 text-primary" />,
+    title: "Smarter Petty Cash Management",
+    description: "Digitise your petty cash — track small expenses in real-time, avoid manual logs, and prevent overspending with transparent records.",
   },
   {
-    icon: <Gauge className="h-8 w-8 text-primary" />,
+    icon: <Landmark className="h-8 w-8 text-primary" />,
+    title: "Streamline Business Payments",
+    description: "Pay vendors, utilities, and bills directly from one dashboard — fast, transparent, and hassle-free.",
+  },
+  {
+    icon: <SearchCheck className="h-8 w-8 text-primary" />,
     title: "Real-Time Expense Tracking",
-    description: "Monitor your team's spending as it happens with automated tracking.",
+    description: "Get instant visibility into every transaction with automated categorisation and easy-to-read analytics.",
   },
   {
-    icon: <Lock className="h-8 w-8 text-primary" />,
+    icon: <ShieldCheck className="h-8 w-8 text-primary" />,
     title: "Secure & Compliant Transactions",
-    description: "Bank-grade security and compliance to protect your financial data.",
+    description: "Bank-grade encryption ensures every business payment, reimbursement, and petty cash expense is fully secure.",
   },
   {
-    icon: <BarChart3 className="h-8 w-8 text-primary" />,
-    title: "Smart Insights",
-    description: "Gain actionable insights into your business spending with powerful analytics.",
-  },
-  {
-    icon: <Users className="h-8 w-8 text-primary" />,
-    title: "Empower Your Team",
-    description: "Provide your team with the tools they need to manage expenses efficiently.",
+    icon: <HandCoins className="h-8 w-8 text-primary" />,
+    title: "Smart Insights & Reporting",
+    description: "Gain complete control over expenses with detailed analytics and expense summaries that help you plan ahead.",
   },
 ];
 
@@ -35,7 +37,7 @@ export default function KeyBenefits() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center">
           <h2 className="text-3xl font-bold tracking-tighter text-secondary sm:text-4xl">
-            The haeywa Advantage
+            Key Benefits of Using haeywa
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground md:text-xl">
             Experience a smarter way to manage your business finances.

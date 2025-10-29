@@ -7,26 +7,22 @@ import {
 
 const faqs = [
   {
-    question: "What is haeywa?",
-    answer: "haeywa is a comprehensive business payments and expense management platform designed to simplify your financial operations. It offers tools for bill payments, automated expense tracking, corporate cards, and insightful analytics, all in one place."
+    question: "Can haeywa help manage petty cash digitally?",
+    answer: "Yes. haeywa replaces manual registers with an automated petty cash management system for tracking and approval."
   },
   {
-    question: "How does haeywa secure our financial data?",
-    answer: "Security is our top priority. We use bank-grade encryption, multi-factor authentication, and comply with industry-leading security standards to ensure your financial data is always protected."
+    question: "Is my financial data secure?",
+    answer: "Absolutely. We use bank-grade encryption and comply with financial security standards to protect your information."
   },
   {
-    question: "Can haeywa integrate with our existing accounting software?",
-    answer: "Yes, haeywa is designed for seamless integration. It connects with popular accounting software like QuickBooks, Xero, and Tally to ensure your financial records are always in sync."
+    question: "Can multiple users manage petty cash across branches?",
+    answer: "Yes. You can create multiple user roles, define limits, and manage branch-level expenses easily."
   },
   {
-    question: "What kind of support do you offer?",
-    answer: "We offer dedicated support to all our clients. Our team is available via email, phone, and live chat to assist you with any questions or issues you may have. We also provide a comprehensive knowledge base and tutorials."
+    question: "How fast is onboarding?",
+    answer: "Setup is simple — most businesses start managing payments and petty cash within a day."
   },
-  {
-    question: "Is there a mobile app available?",
-    answer: "Yes, haeywa offers a powerful and intuitive mobile app for both iOS and Android. You can manage payments, track expenses, and view reports on the go, empowering your team with financial flexibility."
-  }
-]
+];
 
 export default function Faq() {
   return (

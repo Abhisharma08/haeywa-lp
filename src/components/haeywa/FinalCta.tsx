@@ -8,10 +8,10 @@ export default function FinalCta() {
         <div className="my-20 lg:my-24 flex items-center justify-center rounded-2xl bg-gradient-to-r from-secondary to-accent p-8 md:p-16">
           <div className="max-w-3xl text-center text-white">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Ready to make business payments and expense tracking effortless?
+              Ready to take control of your business payments and petty cash?
             </h2>
             <p className="mt-4 text-lg md:text-xl">
-              Join hundreds of businesses simplifying their finances with haeywa.
+              Start today with haeywa — simplify, track, and manage expenses the smart way.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground text-base w-full sm:w-auto">

@@ -11,6 +11,7 @@ import Hero from '@/components/haeywa/Hero';
 import KeyBenefits from '@/components/haeywa/KeyBenefits';
 import Solutions from '@/components/haeywa/Solutions';
 import WhyChooseUs from '@/components/haeywa/WhyChooseUs';
+import IdealFor from '@/components/haeywa/IdealFor';
 
 export default function Home() {
   const isMobile = useIsMobile();
@@ -22,6 +23,7 @@ export default function Home() {
         <Hero />
         <KeyBenefits />
         <Solutions />
+        <IdealFor />
         <WhyChooseUs />
         <Faq />
         <FinalCta />

@@ -16,7 +16,7 @@ export default function Hero() {
                 Simplify Business Payments & Expense Management with haeywa
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl lg:mx-0">
-                Empower your team with a unified platform for effortless bill payments, automated expense tracking, and smart business insights.
+                Empower your team with a unified platform for effortless bill payments, automated petty cash management, and smart expense insights. Track every rupee, control budgets, and manage approvals — all in one secure place.
               </p>
             </div>
           </div>

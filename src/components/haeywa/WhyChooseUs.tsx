@@ -2,20 +2,24 @@ import { CheckCircle2 } from "lucide-react";
 
 const reasons = [
   {
-    title: "Faster Payment Cycles",
-    description: "Reduce payment processing times from days to minutes with our automated workflows."
+    title: "Complete Financial Control",
+    description: "Manage all payments — from vendor invoices to petty cash — through one intuitive dashboard."
   },
   {
-    title: "Greater Financial Control",
-    description: "Set custom spending limits, track expenses in real-time, and eliminate fraud."
+    title: "Eliminate Manual Errors",
+    description: "No more spreadsheets or missing receipts. Every petty cash expense is automatically recorded and categorised."
   },
   {
-    title: "Seamless Integration",
-    description: "Connect haeywa with your existing accounting software for a single source of truth."
+    title: "Real-Time Visibility",
+    description: "Monitor spending patterns and cash availability across teams, departments, or branches in real time."
   },
   {
-    title: "Dedicated Expert Support",
-    description: "Our team of financial experts is here to support you every step of the way."
+    title: "Custom Rules & Approvals",
+    description: "Define who can spend, how much, and when — making petty cash management simple and transparent."
+  },
+  {
+    title: "Fast Setup & Reliable Support",
+    description: "Get started in minutes with guided onboarding and ongoing support from our experts."
   }
 ];
 

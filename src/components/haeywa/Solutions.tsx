@@ -7,22 +7,22 @@ const solutions = [
   {
     icon: <ArrowRightLeft className="h-10 w-10 text-primary" />,
     title: "Business Payments",
-    description: "Automate vendor payments, manage invoices, and streamline your cash flow.",
+    description: "Simplify vendor payouts, recurring bill payments, and reimbursements — all from one integrated platform.",
   },
   {
     icon: <Wallet className="h-10 w-10 text-primary" />,
-    title: "Expense Management",
-    description: "Track, approve, and reimburse employee expenses in real-time.",
+    title: "Expense & Petty Cash Management",
+    description: "Digitally manage your company’s petty cash fund. Set spending limits, monitor cash flow, and approve team reimbursements — anytime, anywhere.",
   },
   {
     icon: <Banknote className="h-10 w-10 text-primary" />,
     title: "UPI for Business",
-    description: "Accept and make instant payments using India's leading digital payment system.",
+    description: "Make instant payments with haeywa’s secure UPI integration — perfect for managing petty cash disbursements and on-the-go expenses.",
   },
   {
     icon: <CreditCard className="h-10 w-10 text-primary" />,
     title: "Corporate Cards",
-    description: "Issue smart corporate cards with custom spending limits and controls.",
+    description: "Empower your team with controlled spending access. haeywa cards simplify petty cash use, ensure traceability, and eliminate reimbursement delays.",
   },
 ];
 
@@ -46,11 +46,12 @@ export default function Solutions() {
                   {solution.icon}
                 </div>
                 <CardTitle className="text-xl font-bold">{solution.title}</CardTitle>
+                 <CardDescription className="pt-2">{solution.description}</CardDescription>
               </CardHeader>
-              <CardContent className="flex-grow">
-                <CardDescription>{solution.description}</CardDescription>
+              <CardContent className="flex-grow flex flex-col items-center">
+                
               </CardContent>
-              <div className="p-6 pt-0">
+              <div className="p-6 pt-0 mt-auto">
                 <Button asChild className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90">
                   <Link href="#lead-form">Enquire Now</Link>
                 </Button>
