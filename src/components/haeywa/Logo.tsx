@@ -9,7 +9,7 @@ const Logo = ({ className }: { className?: string }) => {
         alt="haeywa Logo"
         width={80}
         height={20}
-        className="object-contain w-[100px] sm:w-[120px] md:w-[140px] h-auto"
+        className="object-contain w-[70px] sm:w-[70px] md:w-[70px] h-auto"
         priority
       />
     </div>
