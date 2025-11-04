@@ -24,6 +24,14 @@ export default function RootLayout({
     <html lang="en" className={cn("scroll-smooth", inter.variable)}>
       <head>
         {/* Google Tag Manager - Paste your GTM snippet here */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11082531930"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11082531930');
+</script>
         {/* End Google Tag Manager */}
       </head>
       <body className="font-sans antialiased">
